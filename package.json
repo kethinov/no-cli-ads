@@ -14,8 +14,8 @@
   },
   "engineStrict": true,
   "dependencies": {
-    "fse": "4.0.1",
-    "fkill": "6.2.0"
+    "fkill": "6.2.0",
+    "fse": "4.0.1"
   },
   "devDependencies": {
     "eslint": "~6.2.1",

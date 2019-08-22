@@ -22,7 +22,7 @@ added 412 packages from 214 contributors and audited 1119 packages in 11.729s
 found 0 vulnerabilities
 ```
 
-This module is an ad blocker for bad actors in this space, like the [funding](https://github.com/feross/funding/issues) npm module (at least as of funding@1.0.3).
+This module is an ad blocker for bad actors in this space, like the [funding](https://github.com/feross/funding) npm module (at least as of funding@1.0.3).
 
 # Usage
 
