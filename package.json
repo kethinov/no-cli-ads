@@ -1,0 +1,59 @@
+{
+  "name": "no-cli-ads",
+  "description": "Ad blocker for command line interface ads.",
+  "author": "Eric Newport <kethinov@gmail.com>",
+  "version": "0.1.0",
+  "homepage": "https://github.com/kethinov/no-cli-ads",
+  "license": "CC-BY-4.0",
+  "bin": {
+    "no-cli-ads": "spawn.js",
+    "yes-cli-ads": "kill.js"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  },
+  "engineStrict": true,
+  "dependencies": {
+    "fse": "4.0.1",
+    "fkill": "6.2.0"
+  },
+  "devDependencies": {
+    "eslint": "~6.2.1",
+    "husky": "~3.0.4",
+    "lint-staged": "~9.2.3",
+    "standard": "~14.0.0"
+  },
+  "eslintConfig": {
+    "parserOptions": {
+      "ecmaVersion": 2018
+    },
+    "plugins": [
+      "mocha"
+    ],
+    "rules": {
+      "mocha/no-exclusive-tests": "error"
+    }
+  },
+  "scripts": {
+    "test": "echo \"TODO: tests\""
+  },
+  "lint-staged": {
+    "*.js": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kethinov/no-cli-ads.git"
+  },
+  "keywords": [
+    "ad",
+    "ads",
+    "blocker",
+    "ad blocker",
+    "ad blocking"
+  ],
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  }
+}
