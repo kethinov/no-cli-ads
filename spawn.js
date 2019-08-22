@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const where = process.argv[2] || process.argv[1]
+const where = process.argv[2]
 if (!where) {
   console.error('Supply a path to monitor')
   process.exit(1)
@@ -46,7 +46,7 @@ function hasFsWatch () {
   }
 
   function spawnIt () {
-    const childProcess = spawn('node', ['watcher.js', where], { detached: true })
+    const childProcess = spawn('no-cli-ads-watcher', [where], { detached: true })
     console.log('Running console ads disabler at PID ' + childProcess.pid)
     console.log('→ Run `yes-cli-ads` to kill that process')
     fse.writeFileSync(PIDPath, childProcess.pid)

@@ -2,11 +2,12 @@
   "name": "no-cli-ads",
   "description": "Ad blocker for command line interface ads.",
   "author": "Eric Newport <kethinov@gmail.com>",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "homepage": "https://github.com/kethinov/no-cli-ads",
   "license": "CC-BY-4.0",
   "bin": {
     "no-cli-ads": "spawn.js",
+    "no-cli-ads-watcher": "watcher.js",
     "yes-cli-ads": "kill.js"
   },
   "engines": {
