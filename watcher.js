@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const where = process.argv[2]
 const { spawn } = require('child_process')
 const fswatch = spawn('fswatch', ['-0', '-e', '.*', '-i', 'messages.json', '-r', '-x', '--event-flag-separator=" || "', where])
