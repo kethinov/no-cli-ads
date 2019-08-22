@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-const where = process.argv[2]
+const where = process.argv[2] || process.argv[1]
 if (!where) {
   console.error('Supply a path to monitor')
   process.exit(1)
