@@ -14,7 +14,8 @@ BECAUSE THE DEVELOPER THINKS
 POLLUTING CONSOLE LOGS
 IS A GOOD WAY
 TO SUPPORT OPEN SOURCE
-                                                                          https://someproduct.somedomain
+
+https://someproduct.somedomain
 
 npm notice created a lockfile as package-lock.json. You should commit this file.
 added 412 packages from 214 contributors and audited 1119 packages in 11.729s
