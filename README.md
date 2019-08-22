@@ -26,7 +26,7 @@ This module is an ad blocker for bad actors in this space, like the [funding](ht
 
 # Usage
 
-- Install [fswatch](https://github.com/emcrisostomo/fswatch) first and ensure it's in your path. For example, in macOS, use [Homebrew](https://brew.sh/) to install `fswatch` by running `brew install fswatch`.
+- Install [fswatch](https://github.com/emcrisostomo/fswatch) first and ensure it's in your PATH. For example, in macOS, use [Homebrew](https://brew.sh/) to install `fswatch` by running `brew install fswatch`.
 - Install: `npm i -g no-cli-ads`.
 
 - Block ads: `no-cli-ads /some/dir/and/its/subdirs/to/watch`.
