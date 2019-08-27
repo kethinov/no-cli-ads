@@ -47,7 +47,7 @@ Last but not least, if you've got an idea for how to make this ad blocker better
 
 # Other ad blockers worth considering
 
-If you want to block ads using ad different method, you might want to consider competing approaches instead, such as:
+If you want to block ads using a different method, you might want to consider competing approaches instead, such as:
 
 - [npm-adblock](https://github.com/mkg20001/npm-adblock): Modifies npm itself instead of using a persistent process. See [discussion of tradeoffs](https://github.com/kethinov/no-cli-ads/issues/3).
 
