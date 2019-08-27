@@ -11,9 +11,8 @@ GIANT AD
 
 AD FOR SOME RANDOM THING
 BECAUSE THE DEVELOPER THINKS
-POLLUTING CONSOLE LOGS
-IS A GOOD WAY
-TO SUPPORT OPEN SOURCE
+POLLUTING CONSOLE LOGS IS A
+GOOD WAY TO SUPPORT OPEN SOURCE
 
 https://someproduct.somedomain
 
@@ -22,7 +21,7 @@ added 412 packages from 214 contributors and audited 1119 packages in 11.729s
 found 0 vulnerabilities
 ```
 
-This module is an ad blocker for bad actors in this space, like the [funding](https://github.com/feross/funding) npm module (at least as of funding@1.0.3, [now suppressible with environment variable](https://github.com/kethinov/no-cli-ads/issues/2#issuecomment-524644139)).
+This module is an ad blocker for bad actors in this space, like the now infamous [funding](https://github.com/feross/funding) npm module [incident](https://www.reddit.com/r/programming/comments/cus0zu/a_3mil_downloads_per_month_javascript_library/) (an ad which is [now suppressible with environment variable](https://github.com/kethinov/no-cli-ads/issues/2#issuecomment-524644139)).
 
 # Usage
 
@@ -50,4 +49,3 @@ Last but not least, if you've got an idea for how to make this ad blocker better
 If you want to block ads using a different method, you might want to consider competing approaches instead, such as:
 
 - [npm-adblock](https://github.com/mkg20001/npm-adblock): Modifies npm itself instead of using a persistent process. See [discussion of tradeoffs](https://github.com/kethinov/no-cli-ads/issues/3).
-
