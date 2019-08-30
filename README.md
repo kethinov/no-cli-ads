@@ -1,4 +1,5 @@
 # No CLI ads
+
 Don't want to see stuff like this in your console output?
 
 ```
@@ -21,7 +22,9 @@ added 412 packages from 214 contributors and audited 1119 packages in 11.729s
 found 0 vulnerabilities
 ```
 
-This module is an ad blocker for bad actors in this space, like the now infamous [funding](https://github.com/feross/funding) npm module [incident](https://www.reddit.com/r/programming/comments/cus0zu/a_3mil_downloads_per_month_javascript_library/) (an ad which is [now suppressible with environment variable](https://github.com/kethinov/no-cli-ads/issues/2#issuecomment-524644139)).
+This module is an ad blocker for bad actors in this space, like the now infamous [funding](https://github.com/feross/funding) npm module [incident](https://www.reddit.com/r/programming/comments/cus0zu/a_3mil_downloads_per_month_javascript_library/).
+
+That specific ad is [now suppressible with an environment variable](https://github.com/kethinov/no-cli-ads/issues/2#issuecomment-524644139) and npm has officially [banned ads on its hosted modules](https://www.zdnet.com/article/npm-bans-terminal-ads/), but there is no guarantee that there won't be future bad actors in the CLI space, so this repo may still be needed to defend against future bad actors.
 
 # Usage
 
