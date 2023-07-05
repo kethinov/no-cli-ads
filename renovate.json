@@ -3,6 +3,7 @@
     "config:base",
     ":preserveSemverRanges",
     ":ignoreUnstable",
-    ":respectLatest"
+    ":respectLatest",
+    ":disableDependencyDashboard"
   ]
 }
