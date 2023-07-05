@@ -1,6 +1,6 @@
 # No CLI ads
 
-*NOTE: NO LONGER MAINTAINED.*
+**NOTE: NO LONGER MAINTAINED.**
 
 Don't want to see stuff like this in your console output?
 
