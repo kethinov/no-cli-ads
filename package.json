@@ -15,7 +15,7 @@
   },
   "engineStrict": true,
   "dependencies": {
-    "fkill": "6.2.0",
+    "fkill": "8.1.1",
     "fse": "4.0.1"
   },
   "devDependencies": {
