@@ -21,7 +21,7 @@
   "devDependencies": {
     "eslint": "~6.2.1",
     "husky": "~3.0.4",
-    "lint-staged": "~9.2.3",
+    "lint-staged": "~15.2.0",
     "standard": "~14.0.0"
   },
   "eslintConfig": {
